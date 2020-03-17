@@ -1,0 +1,23 @@
+public class CaminhãoPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Caminhão caminhão = new Caminhão ("Azul","Chevrolet","D-40"); //instanciando
+		
+		System.out.println("Características do caminhão: ");
+		
+		caminhão.CaracteristicasCaminhão(); //apresentando
+		
+		System.out.println();
+		
+		System.out.println("Características depois de alterar: ");
+		
+		caminhão.setCor("Branco"); //alterando valor
+		caminhão.setMarca("Ford");
+		caminhão.setModelo("F-600");
+		
+		caminhão.CaracteristicasCaminhão(); //apresentando
+
+	}
+}
